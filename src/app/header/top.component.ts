@@ -5,6 +5,6 @@ import { Component } from "@angular/core";
     templateUrl: 'top.component.html',
     styleUrls: ['top.component.css']
 })
-export class TopComponent{
+export class TopComponent {
 
 }
