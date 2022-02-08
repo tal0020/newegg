@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CategoryCardComponent } from './categories/category.card.component';
+import { PromotionsCarouselComponent } from './categories/promotions.carousel.component';
 import { SecondTopComponent } from './header/second.top.component';
 import { TopComponent } from './header/top.component';
 
@@ -9,7 +11,9 @@ import { TopComponent } from './header/top.component';
   declarations: [
     AppComponent,
     TopComponent,
-    SecondTopComponent
+    SecondTopComponent,
+    CategoryCardComponent,
+    PromotionsCarouselComponent
   ],
   imports: [
     BrowserModule

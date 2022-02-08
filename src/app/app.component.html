@@ -1,2 +1,41 @@
 <newegg-top>Loading...</newegg-top>
 <newegg-second-top>Loading...</newegg-second-top>
+<newegg-promotions-carousel>Loading...</newegg-promotions-carousel>
+<div class="container-fluid d-flex">
+    <newegg-category-card img="https://promotions.newegg.com/21-2603/21-2603_HomePageCircle_Software.png"
+        description="Software">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0001_Sporting-Goods.png"
+        description="Sporting Goods">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0002_Drones.png"
+        description="Drones">Loading...</newegg-category-card>
+    <newegg-category-card img="https://promotions.newegg.com/nepro/21-237/Homepage_CategoryCircle_Auto.png"
+        description="Automotive">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0004_TVs.png"
+        description="TVs">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0005_Home-Audio.png"
+        description="Home Audio">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0006_Cell-Phones.png"
+        description="Cell Phones">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0007_VR-Headsets.png"
+        description="VR Headsets">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0008_Office-Furniture.png"
+        description="Office Furniture">Loading...</newegg-category-card>
+    <newegg-category-card
+        img="https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0009_PCsMonitors.png"
+        description="PCs & Monitors">Loading...</newegg-category-card>
+</div>
+<br>
+<div class="container-fluid d-flex">
+    <div *ngFor="let product of products">
+        <newegg-category-card img={{product.img}} description={{product.description}}>
+            Loading...
+        </newegg-category-card>
+    </div>
+</div>

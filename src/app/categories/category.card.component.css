@@ -1,0 +1,18 @@
+.card {
+    border-style: none;
+    border-radius: 50%;
+    width: 140px;
+    height: 161px;
+}
+.card-image-top {
+    width: 120px;
+    height: 120px;
+}
+.card-link {
+    position: relative;
+    top: -45px;
+    left: 25px;
+    font: bold 12px/16px 'open sans';
+    text-decoration: none;
+    color: black;
+}
