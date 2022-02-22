@@ -7,6 +7,14 @@ import { PromotionsCarouselComponent } from './categories/promotions.carousel.co
 import { FooterComponent } from './footer/footer.component';
 import { SecondTopComponent } from './header/second.top.component';
 import { TopComponent } from './header/top.component';
+import { AppRoutingModule } from './app-routing.module';
+import { BestDealsLayoutComponent } from './categories/best-deals-layout.component';
+import { HomeLayoutComponent } from './categories/home-layout.component';
+import { BestSellersLayoutComponent } from './categories/best-sellers-layout.component';
+import { BuildLayoutComponent } from './categories/build-layout.component';
+import { BlackFridayLayoutComponent } from './categories/black-friday-layout.component';
+import { ProductCardComponent } from './categories/product.card.component';
+import { BestCardComponent } from './categories/best-card.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +23,19 @@ import { TopComponent } from './header/top.component';
     SecondTopComponent,
     CategoryCardComponent,
     PromotionsCarouselComponent,
-    FooterComponent
+    FooterComponent,
+    BestDealsLayoutComponent,
+    HomeLayoutComponent,
+    BestSellersLayoutComponent,
+    BuildLayoutComponent,
+    BlackFridayLayoutComponent,
+    ProductCardComponent,
+    BestDealsLayoutComponent,
+    BestCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

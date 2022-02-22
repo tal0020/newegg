@@ -9,12 +9,5 @@ import { mock_category_list } from './categories/mock_category_list';
 })
 export class AppComponent {
   title = 'project';
-  products: CategoryItemModel [] = [];
 
-  constructor() {
-    for (var product of mock_category_list) {
-      console.log(product);
-      this.products.push(product);
-    }
-  }
 }
