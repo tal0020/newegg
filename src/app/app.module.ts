@@ -15,6 +15,8 @@ import { BuildLayoutComponent } from './categories/build-layout.component';
 import { BlackFridayLayoutComponent } from './categories/black-friday-layout.component';
 import { ProductCardComponent } from './categories/product.card.component';
 import { BestCardComponent } from './categories/best-card.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,11 +33,13 @@ import { BestCardComponent } from './categories/best-card.component';
     BlackFridayLayoutComponent,
     ProductCardComponent,
     BestDealsLayoutComponent,
-    BestCardComponent
+    BestCardComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
