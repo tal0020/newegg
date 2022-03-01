@@ -1,0 +1,7 @@
+Main Features:
+  -Created layout components named 'home', 'best-deals', 'best-sellers', 'black-friday', 'and 'build'
+  -Created card components 'product' and 'best' for the 'best-deals' and 'best-sellers' layout components respectively
+  -Created 'best' and 'product' model and mock list components for an ngFor loop for their respective cards
+  -Routed all layout components
+  -Synced all components appropriately
+  -Organized using bootstrap d-flex
