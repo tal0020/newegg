@@ -5,3 +5,10 @@ Main Features:
   -Routed all layout components
   -Synced all components appropriately
   -Organized using bootstrap d-flex
+  
+  03/01/2022 Update:
+  Main features:
+  - Created backend user info component named 'user-info'
+  - Created backend using Firebase
+  - Filled backend database with basic info
+  - Implemented a visual representation of the backend functioning through the 'user-info' component using Angular's HTTP Client
