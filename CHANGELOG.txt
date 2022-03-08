@@ -12,3 +12,10 @@ Main Features:
   - Created backend using Firebase
   - Filled backend database with basic info
   - Implemented a visual representation of the backend functioning through the 'user-info' component using Angular's HTTP Client
+  
+  03/08/2022 Update:
+  Main features:
+  - Created "product.service.ts", "category.service.ts", and "best.service.ts" to communicate with a now updated Firebase database backend containing those components mock list data
+  - Updated each respective services' according component.ts to now fetch the mock list data through the backend communication instead of the mock list
+  Bonus:
+  - Completed the lab 3 times over essentially to also implement the other mock lists through the backend.
