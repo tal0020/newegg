@@ -34,7 +34,7 @@ import { HttpClientModule } from '@angular/common/http';
     ProductCardComponent,
     BestDealsLayoutComponent,
     BestCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,

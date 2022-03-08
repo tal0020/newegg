@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CategoryItemModel } from './category-item.model';
+import { CategoryService } from './category.service';
 import { mock_category_list } from './mock_category_list';
 
 @Component({
@@ -7,13 +8,20 @@ import { mock_category_list } from './mock_category_list';
     templateUrl: 'home-layout.component.html',
     styleUrls: ['home-layout.component.css']
 })
-export class HomeLayoutComponent{
+export class HomeLayoutComponent implements OnInit{
     products: CategoryItemModel [] = [];
 
-    constructor() {
-      for (var product of mock_category_list) {
-        console.log(product);
-        this.products.push(product);
-      }
+    constructor(private categoryService:CategoryService) {
+
+    }
+
+    ngOnInit(): void {
+        this.categoryService.getCategories().subscribe(data => {
+          console.log("Fetching category data");
+          for (var category of data) {
+            console.log(category);
+            this.products.push(category);
+          }
+        })
     }
 }

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BestCardModel } from './best-card.model';
+import { BestService } from './best.service';
 import { mock_best_list } from './mock_best_list';
 
 @Component({
@@ -7,13 +8,20 @@ import { mock_best_list } from './mock_best_list';
     templateUrl: 'best-sellers-layout.component.html',
     styleUrls: ['best-sellers-layout.component.css']
 })
-export class BestSellersLayoutComponent {
+export class BestSellersLayoutComponent implements OnInit{
     products: BestCardModel [] = [];
 
-    constructor() {
-      for (var product of mock_best_list) {
-        console.log(product);
-        this.products.push(product);
-      }
+    constructor(private bestService:BestService) {
+
+    }
+
+    ngOnInit(): void {
+        this.bestService.getBest().subscribe(data => {
+          console.log("Fetching product data");
+          for (var product of data) {
+            console.log(product);
+            this.products.push(product);
+          }
+        })
     }
 }
