@@ -37,6 +37,6 @@ export const mock_category_list = [
     },
     {
         img: "https://promotions.newegg.com/UX/UX1159-Homepage_Redesign/Category/CategoryCircles__0009_PCsMonitors.png",
-        description: "Pcs & Monitors"
+        description: "PCs & Monitors"
     }
 ];
