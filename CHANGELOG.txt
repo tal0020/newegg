@@ -19,3 +19,9 @@ Main Features:
   - Updated each respective services' according component.ts to now fetch the mock list data through the backend communication instead of the mock list
   Bonus:
   - Completed the lab 3 times over essentially to also implement the other mock lists through the backend.
+  
+  03/22/2022 Update:
+  Main features:
+  - Configured Angular Fire library and hosted the website through Firebase
+  - Used AngularFireDatabase instead of HTTPClient as dependency for the services
+  - Deployed website
