@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "newegg-project"
+  },
+  "targets": {
+    "newegg-project": {
+      "hosting": {
+        "project": [
+          "newegg-project"
+        ]
+      }
+    }
+  }
+}
