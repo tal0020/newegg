@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+                <button type="submit" class="btn btn-primary">Add Best Deal</button>
+            </form>
+            <br>
+            <form #postForm1="ngForm" (ngSubmit)="addSeller(postForm1.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Image:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Description:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+                <button type="submit" class="btn btn-primary">Add Best Seller</button>
+            </form>
+        </div>
+    </div>
+</div>

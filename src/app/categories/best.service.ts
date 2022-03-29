@@ -14,4 +14,8 @@ export class BestService {
     public getBest() {
         return this.db.list<BestCardModel>("bestsellers").valueChanges();
     }
+
+    addSeller(best : BestCardModel) {
+        this.db.list<BestCardModel>("bestsellers").push(best);
+    }
 }
