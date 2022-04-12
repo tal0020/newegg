@@ -25,3 +25,12 @@ Main Features:
   - Configured Angular Fire library and hosted the website through Firebase
   - Used AngularFireDatabase instead of HTTPClient as dependency for the services
   - Deployed website
+  
+  03/29/2022 Update:
+  Main features:
+  - Added component to serve as a form to send information to the backend called 'add-product'
+  - Implemented method within 'add-product.html' and 'add-product.ts' to actually receive information
+  - Modified 'product.service.ts' to actually send this information to the backend
+  - Added a new product through this newly achieved method
+  Bonus:
+  - Implemented the same features detailed in the main features but for best sellers as well, when best deals was what was initially implemented.
