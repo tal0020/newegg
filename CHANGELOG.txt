@@ -34,3 +34,10 @@ Main Features:
   - Added a new product through this newly achieved method
   Bonus:
   - Implemented the same features detailed in the main features but for best sellers as well, when best deals was what was initially implemented.
+  
+  04/12/2022 Update:
+  Main features:
+  - Added component to serve as authentication to the backend called 'authentication'
+  - Added service to compliment this component also called 'authentication'
+  - Enabled Email/Password authentication on Firebase backend to store user data
+  - Connected this now enabled Firebase authentication to the authentication service
