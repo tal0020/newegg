@@ -24,6 +24,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 import { AddProductComponent } from './categories/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { AddProductComponent } from './categories/add-product/add-product.compon
     BestDealsLayoutComponent,
     BestCardComponent,
     UserInfoComponent,
-    AddProductComponent
+    AddProductComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
