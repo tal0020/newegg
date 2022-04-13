@@ -41,3 +41,8 @@ Main Features:
   - Added service to compliment this component also called 'authentication'
   - Enabled Email/Password authentication on Firebase backend to store user data
   - Connected this now enabled Firebase authentication to the authentication service
+  
+  04/13/2022 Update:
+  Bonus:
+  - Added spec.ts unit test files for the 'CategoryCardComponent', 'BestCardComponent', and 'ProductCardComponent' components.
+  - Fleshed each unit test file out with 2 unit tests each, one testing a description and another testing the creation of the component.
